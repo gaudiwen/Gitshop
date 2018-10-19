@@ -1,4 +1,4 @@
-package com.gt.mymagicboxapp.base;
+package com.gt.magicboxshop.base;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -10,11 +10,12 @@ import butterknife.ButterKnife;
 
 
 /**
- *Time:2018/10/13
- *Author:Gaodi.
- *Description:
+ * Time:2018/10/13
+ * Author:Gaodi.
+ * Description:
  */
 public abstract class BaseFragment extends Fragment {
+
 
     public abstract View initView(LayoutInflater inflater, ViewGroup container,
                                   Bundle savedInstanceState);
@@ -24,7 +25,7 @@ public abstract class BaseFragment extends Fragment {
 
         View view = initView(inflater, container, savedInstanceState);
 
-        ButterKnife.bind(this,view);
+        ButterKnife.bind(this, view);
 
         initListener();
         initData();
@@ -33,5 +34,5 @@ public abstract class BaseFragment extends Fragment {
 
     protected abstract void initListener();
 
-    protected  abstract void initData();
+    protected abstract void initData();
 }

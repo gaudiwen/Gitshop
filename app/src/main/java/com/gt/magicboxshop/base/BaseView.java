@@ -1,4 +1,4 @@
-package com.gt.mymagicboxapp.base;
+package com.gt.magicboxshop.base;
 
 
 
