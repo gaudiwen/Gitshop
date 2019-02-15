@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="color_000000">#000000</color>
+    <color name="login_input_color">#999999</color>
+    <color name="custom_red">#f04a4a</color>
 </resources>
